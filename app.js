@@ -22,3 +22,20 @@ btn.addEventListener('focus', () => {
   }
   recognition.stop();
 });
+
+const readOutLoud = message => {
+  const speech = new SpeechSynthesisUtterance();
+  speech.volume = 1;
+  speech.rate = 1;
+  speech.pitch = .6;
+  speech.text = message;
+
+  window.speechSynthesis.speak(speech);
+}
+
+
+document.addEventListener('click', () => {
+  btn.focus() ? btn.blur() : btn.focus();
+});
+
+
