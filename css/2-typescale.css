@@ -21,18 +21,18 @@
   
 @font-face {
   font-family: 'Gilroy-Light';
-  src: url('../fonts/webFonts/Gilroy-Light/font.woff2') format('woff2'), url('../fonts/webFonts/Gilroy-Light/font.woff') format('woff');
+  src: url('../assets/fonts/webFonts/Gilroy-Light/font.woff2') format('woff2'), url('../assets/fonts/webFonts/Gilroy-Light/font.woff') format('woff');
 }
 @font-face {
   font-family: 'Gilroy-ExtraBold';
-  src: url('../fonts/webFonts/Gilroy-ExtraBold/font.woff2') format('woff2'), url('../fonts/webFonts/Gilroy-ExtraBold/font.woff') format('woff');
+  src: url('../assets/fonts/webFonts/Gilroy-ExtraBold/font.woff2') format('woff2'), url('../assets/fonts/webFonts/Gilroy-ExtraBold/font.woff') format('woff');
 }
 
 html {font-size: 112.5%;} /*18px*/
 
 body {
   background: white;
-  font-family: 'Gilroy-light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.75;
   color: #000000;
@@ -42,8 +42,8 @@ p {margin-bottom: 1rem;}
 
 h1, h2, h3, h4, h5 {
   margin: 3rem 0 1.38rem;
-  font-family: 'Gilroy-light', sans-serif;
-  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   line-height: 1.3;
 }
 
